@@ -1,0 +1,13 @@
+body {
+  font-family: "Syne Mono", monospace;
+  padding: 2rem 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}

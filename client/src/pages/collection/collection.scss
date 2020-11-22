@@ -1,0 +1,18 @@
+.collection-page {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        font-size: 3.8rem;
+        margin: 0 auto 3rem;
+    }
+
+    .items {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+}
